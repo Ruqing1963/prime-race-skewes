@@ -1,0 +1,80 @@
+# Citation File Format (CFF) - Version 1.2.0
+# This file enables automatic citation generation for GitHub and Zenodo
+
+cff-version: 1.2.0
+message: "If you use this software or data, please cite both the paper and the dataset using the metadata in this file."
+type: software
+title: "Computational Analysis of Chebyshev's Bias and the Skewes Phenomenon"
+abstract: "Complete computational infrastructure and dataset for investigating prime number races and the Skewes phenomenon using spectral analysis and 100 billion Riemann zeta zeros."
+
+authors:
+  - family-names: "Chen"
+    given-names: "Ruqing"
+    orcid: "https://orcid.org/[TO-BE-REGISTERED]"
+    affiliation: "GUT Geoservice"
+    email: "ruqing@hotmail.com"
+
+repository-code: "https://github.com/Ruqing1963/prime-race-skewes"
+repository: "https://zenodo.org/record/18134004"
+url: "https://ruqing1963.github.io/prime-race-skewes/"
+license: MIT
+
+keywords:
+  - prime number theory
+  - Chebyshev's bias
+  - Skewes number
+  - Riemann zeta function
+  - computational number theory
+  - spectral analysis
+  - oscillatory phenomena
+  - explicit formula
+
+version: 1.0.0
+date-released: "2026-01-02"
+
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.18134004"
+    description: "Dataset DOI on Zenodo"
+  - type: url
+    value: "https://arxiv.org/abs/XXXX.XXXXX"
+    description: "Paper preprint on arXiv"
+
+references:
+  - type: article
+    authors:
+      - family-names: "Rubinstein"
+        given-names: "Michael"
+      - family-names: "Sarnak"
+        given-names: "Peter"
+    title: "Chebyshev's bias"
+    journal: "Experimental Mathematics"
+    year: 1994
+    volume: 3
+    issue: 3
+    start: 173
+    end: 197
+
+  - type: article
+    authors:
+      - family-names: "Bays"
+        given-names: "Carter"
+      - family-names: "Hudson"
+        given-names: "Richard H."
+    title: "A new bound for the smallest x with π(x) > li(x)"
+    journal: "Mathematics of Computation"
+    year: 2000
+    volume: 69
+    issue: 231
+    start: 1285
+    end: 1296
+
+preferred-citation:
+  type: article
+  title: "Computational Analysis of Chebyshev's Bias and the Skewes Phenomenon: A Unified Spectral Framework"
+  authors:
+    - family-names: "Chen"
+      given-names: "Ruqing"
+  journal: "[Journal Name - To Be Determined]"
+  year: 2026
+  status: "submitted"
